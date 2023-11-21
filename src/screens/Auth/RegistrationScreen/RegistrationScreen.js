@@ -17,7 +17,7 @@ import Title from "../../../shared/components/Title/Title";
 import Button from "../../../shared/components/Button/Button";
 import CustomTextInput from "../../../shared/components/CustomTextInput/CustomTextInput";
 import Spinner from "../../../shared/components/Spinner/Spinner";
-import Notification from "../../../shared/components/Notification/Notification";
+import Notification from "../../../shared/components/Notifications/Notifications";
 
 import { initialState } from "./initialState";
 import { styles } from "./styles";
