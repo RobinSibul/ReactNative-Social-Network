@@ -55,7 +55,15 @@ export default function LoginScreen({ navigation }) {
           pattern="/^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/"
           value={email}
         />
-        
+        <CustomTextInput
+          placeholder={t.password}
+          onChangeText={handleChangeTextInput}
+          keyboardType="password"
+          pattern="/^[a-zA-Z0-9!@#$%^&*]{6,16}$/"
+          value={password}
+          secureTextEntryStart={true}
+          link={true}
+        />
         <View
           style={{
             width: " 100%",
